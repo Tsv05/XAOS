@@ -38,10 +38,10 @@ void generate_report(Product KATALOGOS[], int totalOrders, int successfulOrders,
 
 int main() {
     int pipeOrder[2];
-    int piANAesponse[2];
+    int piperesponse[2];
 
     pipe(pipeOrder);
-    pipe(piANAesponse);
+    pipe(piperesponse);
 
     initialize_KATALOGOS(KATALOGOS, KATALOGOS_SIZE);
 
