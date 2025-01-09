@@ -4,9 +4,9 @@
 #include <unistd.h>
 #include "eshop.h"
 
-#define KATALOGOS_SIZE 20  
-#define PELATES 5  
-#define ORDERS_ANA_PELATHS 10
+#define KATALOGOS_SIZE 20  ;
+#define PELATES 5  ;
+#define ORDERS_ANA_PELATHS 10;
 
 Product KATALOGOS[KATALOGOS_SIZE];
 
