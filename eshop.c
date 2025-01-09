@@ -4,11 +4,11 @@
 #include <unistd.h>
 #include "eshop.h"
 
-#define KATALOGOS_SIZE 20  ;
-#define PELATES 5  ;
-#define ORDERS_ANA_PELATHS 10;
+#define KATALOGOS_SIZE 20  
+#define PELATES 5  
+#define ORDERS_ANA_PELATHS 10
 
-Product KATALOGOS[KATALOGOS_SIZE];
+Product KATALOGOS[KATALOGOS_SIZE]
 
 void initialize_KATALOGOS(Product KATALOGOS[], int size) {
     for (int i = 0; i < size; i++) {
